@@ -1,7 +1,6 @@
 const lastSeconds = document.getElementById("timer");
 
 let count = lastSeconds.innerHTML;
-let isWin = false;
 
 function timerToWin() {
     let timerId = setInterval(() => {
